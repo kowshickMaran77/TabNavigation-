@@ -35,5 +35,18 @@ This repository contains various projects and code snippets created during web d
 
 This project is licensed under the MIT License - see the [LICENSE](LICENSE) file for details.
 
----
-https://roadmap.sh/projects/simple-tabs
+---# TabNavigation
+
+A simple project to create tab navigation using HTML, CSS, and JavaScript.
+
+## Project URL
+
+[TabNavigation GitHub Repository](https://github.com/kowshickMaran77/TabNavigation.git)
+
+## Features
+
+- Dynamic tab navigation
+- Responsive design with animations
+
+## How to Use
+
