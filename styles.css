@@ -1,0 +1,85 @@
+/* General page styling */
+body {
+    font-family: 'Arial', sans-serif;
+    background-color: #f4f7fb;
+    padding: 0; /* Removed padding for body to ensure full centering */
+    margin: 0;
+    display: flex;
+    justify-content: center;
+    align-items: flex-start; /* Aligns items to the start (top) */
+    height: 100vh;
+}
+
+/* Container for tabs */
+.tabs-container {
+    width: 80%;
+    max-width: 800px;
+    margin: 0 auto;
+    text-align: center;
+}
+
+/* Tab buttons */
+.tabs {
+    display: flex;
+    justify-content: center; /* Centering tabs horizontally */
+    background-color: #fff;
+    border-bottom: 2px solid #ccc;
+    border-radius: 5px 5px 0 0;
+    overflow: hidden;
+    margin-bottom: 20px;
+}
+
+.tab-button {
+    flex: 1;
+    padding: 15px;
+    cursor: pointer;
+    border: none;
+    background-color: #e9ecef;
+    color: #333;
+    font-weight: bold;
+    outline: none;
+    transition: background-color 0.3s ease;
+}
+
+.tab-button.active {
+    background-color: #007bff;
+    color: white;
+    border-bottom: 3px solid #007bff;
+}
+
+.tab-button:hover {
+    background-color: #0056b3;
+    color: white;
+}
+
+/* Content styling */
+.tab-content {
+    display: none;
+    background-color: #fff;
+    padding: 20px;
+    border-radius: 5px;
+    box-shadow: 0 2px 10px rgba(0, 0, 0, 0.1);
+    position: relative; /* Changed to relative to position content properly */
+    opacity: 0;
+    transition: opacity 0.5s ease, transform 0.5s ease;
+}
+
+.tab-content.active-content {
+    display: block;
+    opacity: 1;
+}
+
+h2 {
+    color: #333;
+}
+
+p {
+    color: #555;
+}
+
+/* Responsive Design */
+@media (max-width: 600px) {
+    .tabs {
+        flex-direction: column;
+    }
+}

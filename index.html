@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Tabbed Navigation</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <div class="tabs-container">
+        <!-- Tab Buttons -->
+        <div class="tabs">
+            <button class="tab-button active" data-tab="introduction">Introduction</button>
+            <button class="tab-button" data-tab="week1">Week 1</button>
+            <button class="tab-button" data-tab="week2">Week 2</button>
+            <button class="tab-button" data-tab="week3">Week 3</button>
+            <button class="tab-button" data-tab="week4">Week 4</button>
+        </div>
+
+        <!-- Tab Content -->
+        <div id="introduction" class="tab-content active-content">
+            <h2>Introduction to the Web Workshop</h2>
+            <p>Welcome to the Web Workshop! In this 4-week program, you will learn the fundamentals of web development, including HTML, CSS, and JavaScript. Each week will focus on different aspects of web development, allowing you to build your skills progressively. By the end of the workshop, you will have the knowledge to create your own web projects!</p>
+        </div>
+        <div id="week1" class="tab-content">
+            <h2>Week 1: HTML Basics</h2>
+            <p>In Week 1, you will learn about HTML structure, elements, and how to create a basic webpage.</p>
+        </div>
+        <div id="week2" class="tab-content">
+            <h2>Week 2: CSS Basics</h2>
+            <p>In Week 2, you will learn how to style your webpage using CSS, including layouts, colors, and fonts.</p>
+        </div>
+        <div id="week3" class="tab-content">
+            <h2>Week 3: JavaScript Basics</h2>
+            <p>In Week 3, you will learn JavaScript basics and how to manipulate the DOM to make your pages interactive.</p>
+        </div>
+        <div id="week4" class="tab-content">
+            <h2>Week 4: Project and Review</h2>
+            <p>In Week 4, you will apply what you've learned by building a project and reviewing key concepts.</p>
+        </div>
+    </div>
+
+    <script src="script.js"></script>
+</body>
+</html>
