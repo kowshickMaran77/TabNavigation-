@@ -1,7 +1,39 @@
-Profile Update Form with JavaScript
+# Tab Navigation
 
-This project is a profile update form built with HTML, CSS, and JavaScript. It includes features like a circular progress bar, password validation, and a toggle to show or hide passwords. JavaScript adds interactivity, such as real-time progress updates and form validation.
+A simple and responsive tab navigation project for a 4-week web development workshop. Each tab represents the activities and goals for each week, with smooth transitions between them.
 
-Features Responsive form layout. Circular progress bar showing form completion percentage. Toggle for showing/hiding password. Password validation: Both password fields must match. Success message after form submission. Form resets after successful submission. Technologies Used HTML5 for structure. CSS3 for styling, including the progress bar and buttons. JavaScript for interactivity and validation. How to Use Clone the repository: bash Copy code git clone https://github.com/kowshickMaran77/project1.git Open the index.html file in your browser. JavaScript Functionality Dynamic progress bar updates. Password matching validation. Show/hide password toggle. Form reset after submission. Preview
+## Project URL
 
-Project URL Live Project: Coming Soon! https://roadmap.sh/projects/accessible-form-ui
+[Tab Navigation GitHub Repository](https://github.com/kowshickMaran77/TabNavigation-.git)
+
+## Overview
+
+This project implements a dynamic tab navigation system using HTML, CSS, and JavaScript. It includes an introduction tab that outlines the web development workshop and additional tabs for each week of the workshop.
+
+### Features:
+- Responsive design
+- Smooth transition animations between tabs
+- Hover effects for a modern UI
+- Tabs representing the weekly goals and content for a 4-week workshop
+
+## How to Use
+
+1. Clone the repository:
+    ```bash
+    git clone https://github.com/kowshickMaran77/TabNavigation-.git
+    ```
+
+2. Open the `index.html` file in your browser.
+
+3. Explore the content by clicking on the tabs (Introduction, Week 1, Week 2, Week 3, Week 4).
+
+## Technologies Used
+
+- HTML
+- CSS (with animations and hover effects)
+- JavaScript (for DOM manipulation)
+
+## License
+
+This project is licensed under the MIT License.
+
