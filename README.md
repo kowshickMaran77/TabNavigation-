@@ -48,5 +48,5 @@ A simple project to create tab navigation using HTML, CSS, and JavaScript.
 - Dynamic tab navigation
 - Responsive design with animations
 
-## How to Use
+[## How to Use](https://roadmap.sh/projects/simple-tabs)
 
