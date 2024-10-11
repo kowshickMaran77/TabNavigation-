@@ -1,52 +1,9 @@
+Profile Update Form with JavaScript
 
-# Codesapiens
+This project is a profile update form built with HTML, CSS, and JavaScript. It includes features like a circular progress bar, password validation, and a toggle to show or hide passwords. JavaScript adds interactivity, such as real-time progress updates and form validation.
 
-This repository contains various projects and code snippets created during web development learning and experiments.
+Features Responsive form layout. Circular progress bar showing form completion percentage. Toggle for showing/hiding password. Password validation: Both password fields must match. Success message after form submission. Form resets after successful submission. Technologies Used HTML5 for structure. CSS3 for styling, including the progress bar and buttons. JavaScript for interactivity and validation. How to Use Clone the repository: bash Copy code git clone https://github.com/kowshickMaran77/project1.git Open the index.html file in your browser. JavaScript Functionality Dynamic progress bar updates. Password matching validation. Show/hide password toggle. Form reset after submission. Preview
 
-## Project Structure
-
-- **index.html**: Main HTML file for the project.
-- **styles.css**: CSS styles used for the layout and design.
-- **script.js**: JavaScript file for DOM manipulation and event handling.
-
-## Features
-
-- **Tabs Component**: Simple tabs functionality using HTML, CSS, and JavaScript.
-- **Responsive Design**: The layout adjusts based on screen size for a better user experience on different devices.
-- **Animations**: Smooth transitions between tabs for a modern look and feel.
-
-## How to Use
-
-1. Clone the repository:
-
-   ```bash
-   git clone https://github.com/kowshickMaran77/Codesapiens.git
-   ```
-
-2. Navigate to the project folder:
-
-   ```bash
-   cd Codesapiens
-   ```
-
-3. Open `index.html` in a browser to view the project.
-
-## License
-
-This project is licensed under the MIT License - see the [LICENSE](LICENSE) file for details.
-
----# TabNavigation
-
-A simple project to create tab navigation using HTML, CSS, and JavaScript.
-
-## Project URL
-
-[TabNavigation GitHub Repository](https://github.com/kowshickMaran77/TabNavigation.git)
-
-## Features
-
-- Dynamic tab navigation
-- Responsive design with animations
-
-[## How to Use](https://roadmap.sh/projects/simple-tabs)
-
+Project URL
+Live Project: Coming Soon!
+https://roadmap.sh/projects/accessible-form-ui
